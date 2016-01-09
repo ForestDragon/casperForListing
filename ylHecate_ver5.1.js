@@ -16,8 +16,8 @@ var json = require('loginAccount.json');
 require('utils').dump(json);
 
 //変数定義
-var LOGIN_URL         = 'https://login.bizmanager.yahoo.co.jp/login?url=https://promotionalads.business.yahoo.co.jp%2FAdvertiser%2FDashboard';
-var DETAIL_URL        = 'https://promotionalads.business.yahoo.co.jp/Advertiser/FinancialReports/DetailedStatements';
+var LOGIN_URL         = '[URL]';
+var DETAIL_URL        = '[URL]';
 var LOADTIME          = 3000;  //ページロードに必要な時間。
 var HECATE_ID         = json.legato.id;
 var HECATE_PASS       = json.legato.pass;
